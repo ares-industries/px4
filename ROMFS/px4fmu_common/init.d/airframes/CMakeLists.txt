@@ -174,3 +174,9 @@ if(CONFIG_MODULES_UUV_ATT_CONTROL)
 		60002_uuv_bluerov2_heavy
 	)
 endif()
+
+if(CONFIG_MODULES_ARES)
+	px4_add_romfs_files(
+		100000_ares_prototype
+	)
+endif()

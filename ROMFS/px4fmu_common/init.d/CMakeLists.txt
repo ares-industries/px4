@@ -132,3 +132,10 @@ if(CONFIG_MODULES_TEMPERATURE_COMPENSATION)
 		rc.thermal_cal
 	)
 endif()
+
+if(CONFIG_MODULES_ARES)
+	px4_add_romfs_files(
+		rc.ares_apps
+		rc.ares_defaults
+	)
+endif()

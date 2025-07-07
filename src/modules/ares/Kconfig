@@ -1,0 +1,5 @@
+menuconfig MODULES_ARES
+	bool "ares"
+	default n
+	---help---
+		enable ares gnc module
